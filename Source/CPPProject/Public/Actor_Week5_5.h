@@ -12,7 +12,7 @@ class CPPPROJECT_API AActor_Week5_5 : public AActor
 	GENERATED_BODY()
 private:
 	float Treval;
-	float Total = 0;
+	float Total;
 	FVector Points;
 
 public:	

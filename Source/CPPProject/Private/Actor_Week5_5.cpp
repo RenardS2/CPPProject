@@ -7,7 +7,9 @@ AActor_Week5_5::AActor_Week5_5()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
-	Points = FVector(0.0f, 0.0f, 0.0f);
+	this->Treval = 0.0f;
+	this->Total = 0.0f;
+	this->Points = FVector(0.0f, 0.0f, 0.0f);
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
 
